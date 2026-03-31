@@ -51,10 +51,10 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Presentation 1 Mid-Project Brief](/pdf/CSCI-497.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:CSCI-497** 
+- **Grade:P**
 
 
 ### [Presentation 2 Title](/pdf/sample_presentation.pdf)
