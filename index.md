@@ -51,7 +51,7 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1 Mid-Project Brief](/pdf/CSCI-497.pdf)
+### [Presentation 1 Mid-Project Brief](/pdf/CSCI-497.PDF)
 
 - **Class:CSCI-497** 
 - **Grade:P**
