@@ -4,12 +4,12 @@ Portfolio
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) with the subject line, GitHub Access.
+*For access to my private project repositories, please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
 ### [OpenSCAP Portable STIG Script | CSCI 301](project1)
 
-![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 1 Thumbnail Name](images/fig3csci301.png)
 
 ---
 ### [DND Clones Java Game | CSCI 325](project2)
