@@ -1,48 +1,48 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+OpenSCAP Portable STIG Script
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class:CSCI-301** 
+-   **Grade:A** 
+-   **Language(s):BASH** 
+-   **Source Code Repository:** [OpenSCAP Portable STIG Script](https://github.com/JoeChristofiles/OpenSCAP-Portable-STIG-Script)  
+    (Please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project implements an automated Security Technical Implementation Guide (STIG) compliance assessment for a Linux system using OpenSCAP. The program executes a DISA STIG benchmark against a target environment, applies a tailored security profile, and generates both structured XML results and a human-readable HTML report.
+
+The implementation uses a Bash script to control execution of a portable OpenSCAP environment. Instead of installing OpenSCAP on the system, a precompiled oscap binary was bundled with its required shared libraries and supporting data files. The script configures runtime environment variables to redirect library loading and data paths to this local directory, allowing the tool to operate as a standalone package without system dependencies.
+
+During execution, the script performs an XCCDF evaluation using a specified STIG profile and tailoring file, producing a results XML file that captures compliance status for each control. The results are then transformed into an HTML report, enabling clear analysis of passed and failed security checks.
 
 ## How to compile and run the program
 
 How to compile (if applicable) and run the project.
 
 ```bash
-cd ./project
-python setup.py
+cd OpenSCAP-Portable-STIG-Script/"OpenSCAP Portable STIG Script"
+chmod 755 stigScript.sh
+./stigScript.sh
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+This program is executed from the command line and does not include a graphical user interface. The user runs the script to initiate the STIG compliance scan and reviews the generated HTML report for results. All evaluation and report generation are performed automatically without additional user input.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+![screenshot](images/fig1csci301.png)  
+Fig. 1 Assigning execution permissions to the STIG evaluation script prior to execution.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/fig2csci301.png)  
+Fig 2. Execution of the OpenSCAP STIG evaluation script showing rule-level pass and fail results in the terminal.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/fig3csci301.png)  
+Fig 3. OpenSCAP HTML report displaying evaluation metadata and overall compliance status.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/fig4csci301.png)  
+Fig 4. Detailed STIG rule results highlighting failed security controls and associated severity levels.
 
-## 3. Additional Considerations
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [OpenSCAP Portable STIG Script](https://github.com/JoeChristofiles/OpenSCAP-Portable-STIG-Script).
 
 [Back to Portfolio](./)

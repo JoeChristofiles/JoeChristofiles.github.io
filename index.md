@@ -7,22 +7,22 @@ Programming Projects
 *For access to my private project repositories, please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
-### [Self-Contained SCAP Benchmark | CSCI 301](project1)
+### [OpenSCAP Portable STIG Script | CSCI 301](project1)
 
 ![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [DND Clones game | CSCI 325](project2)
+### [DND Clones Java Game | CSCI 325](project2)
 
 ![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [Front-End AD Library | CSCI 383](project3)
+### [Front-end Webpage AD-Library | CSCI 383](project3)
 
 ![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [Project 4 Title | CSCI 332](project1)
+### [Project 4 Title | CSCI 325](project4)
 
 ![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
 
@@ -31,36 +31,36 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [Ad Blockers](/pdf/CSCI-235 Ethics Paper-Ad Blockers.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class:CSCI-235**  
+-   **Course Grade:B**
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Ethics Assignment](/pdf/CSCI-301 Ethics Assignment - Joseph.Christofiles.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:CSCI-301** 
+-   **Course Grade:B**
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Ethics Paper](/pdf/CSCI-325 Ethics Paper - Joseph.Christofiles.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:CSCI-325** 
+-   **Course Grade:B+**
 
 ---
 
 Presentations
 -------------
 
-### [Presentation 1 Mid-Project Brief](/pdf/CSCI-497.PDF)
+### [Mid-Project Brief](/pdf/CSCI-497.PDF)
 
 - **Class:CSCI-497** 
 - **Grade:P**
 
 
-### [Presentation 2 Title](/pdf/sample_presentation.pdf)
+### [Creative Teamwork Netherlands](/pdf/sample_presentation.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:CSCI-383** 
+- **Grade:P**
 
 ---
 
