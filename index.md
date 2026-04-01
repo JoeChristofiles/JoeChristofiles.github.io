@@ -12,9 +12,9 @@ Programming Projects
 ![Project 1 Thumbnail Name](images/fig3csci301.png)
 
 ---
-### [DND Clones Java Game | CSCI 325](project2)
+### [Kingdom Calamity Java Game | CSCI 325](project2)
 
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 2 Thumbnail Name](images/fig2csci325.png)
 
 ---
 ### [Front-end Webpage AD-Library | CSCI 383](project3)
