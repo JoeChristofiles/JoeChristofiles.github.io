@@ -4,7 +4,7 @@ Portfolio
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
+*For access to my private project repositories, please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
 ### [Self-Contained SCAP Benchmark | CSCI 301](project1)
