@@ -7,7 +7,7 @@ Kingdom Calamity
 -   **Grade:A** 
 -   **Language(s):JAVA** 
 -   **Source Code Repository:** [DND Clones](https://github.com/JoeChristofiles/csci325-fall25-DND-Clones)  
-    (Please [email me](mailto:jachristofiles@student.?subject=GitHub%20Access) to request access.)
+    (Please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
@@ -38,18 +38,7 @@ java -jar DNDClone.jar
 
 ## UI Design
 
-The application uses a Java Swing-based graphical interface to present gameplay elements and capture user interaction.
-
-The user performs the following actions:
-
-Launches the game from the main menu interface
-Views current game state including day count, food, wealth, and favor
-Reads dynamically generated event prompts
-Selects from multiple decision options presented per event
-Observes real-time updates to game state and progression
-Reviews historical decisions and outcomes through an in-game log
-
-The interface displays both system state and decision points simultaneously, allowing the user to directly observe the impact of their actions on game progression.
+This application uses a Java Swing-based interface to present gameplay and capture user interaction. The user launches the game from the main menu, views current game state including day count, food, wealth, and favor, reads dynamically generated event prompts, and selects from multiple decision options. The interface updates in real time based on user input and maintains a log of previous decisions, allowing the user to observe how each action affects overall progression.
 
 ![screenshot](images/fig1csci325.png)  
 Fig 1. Main menu interface

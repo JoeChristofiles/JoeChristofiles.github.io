@@ -1,48 +1,54 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+AD-Library
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class:CSCI-383** 
+-   **Grade:P** 
+-   **Language(s):JavaScript, Vue, CSS, HTML** 
+-   **Source Code Repository:** [AD-Library](https://github.com/JoeChristofiles/CSCI-383)  
+    (Please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project is a frontend prototype of a searchable advertisement library built from a client-style specification. The goal was to replace folder-based storage with a system that allows users to search, filter, and explore ad content in a structured way without relying on inconsistent file naming or manual organization.
 
-## How to compile and run the program
+The application is built with Vue 3 and uses a modular component-based architecture. Core logic is separated into composables responsible for ad ingestion, transformation, normalization, and filtering. The system supports two main input sources: CSV metadata and local media uploads. CSV data is mapped into normalized ad objects, while uploaded media is converted into displayable records and merged into the active dataset.
 
-How to compile (if applicable) and run the project.
+A major focus of this project was handling inconsistent real-world data. The system normalizes labels such as language, gender, platform, and action so filtering remains consistent regardless of input format. It also derives additional attributes from ad content, including religion, holidays, keywords, and emotions, allowing for more useful filtering than what exists in the original data.
+
+Filtering is handled through a dedicated composable that computes filter values dynamically and applies multi-dimensional filtering in real time. Users can search across multiple fields and refine results using structured filters such as language, platform, region, content type, and derived metadata.
+
+This implementation follows the original project requirements focused on search, filtering, and usability for non-technical users, while extending the system with additional normalization and derived data to improve consistency and scalability.
+
+My work focused on frontend architecture, CSV-to-object transformation, metadata normalization, and filtering logic. The goal was to build a maintainable system that can scale with additional data and support future integration with a SharePoint-based workflow.
+
+## How to run the program
+
+This is a Vue 3 application built with Vite and is run from the project root directory.
 
 ```bash
-cd ./project
-python setup.py
+npm install
+npm run dev
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
-
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+This application uses a web-based interface that allows the user to search, filter, and inspect advertisement records without relying on folder navigation or raw metadata. The user can upload CSV files, upload local media, search across multiple fields, apply filters, and open individual ads for detailed viewing. All interaction occurs through the interface, with results updating dynamically based on user input.
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+Fig 1. Main library view showing ad cards, search, and filter controls.
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+Fig 2. Filter interface used to narrow ads by structured metadata fields.
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+Fig 3. Detailed ad view showing expanded metadata and media content.
 
 ## 3. Additional Considerations
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [AD-Library](https://github.com/JoeChristofiles/CSCI-383).
 
 [Back to Portfolio](./)
