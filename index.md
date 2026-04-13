@@ -24,7 +24,7 @@ Programming Projects
 ---
 ### [Statisics Calculator | CSCI 325](project4)
 
-![Project 4 Thumbnail Name](images/)
+![Project 4 Thumbnail Name](images/csci325blank.png)
 
 ---
 
@@ -57,7 +57,7 @@ Presentations
 - **Grade:Pass**
 
 
-### [Secular Music Messages, Trends, and Places](/pdf/Secular Music Messages, Trends, and Places.pdf)
+### [Secular Music Messages, Trends, and Places](https://csuniv0-my.sharepoint.com/personal/jachristofiles_student_csuniv_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjachristofiles%5Fstudent%5Fcsuniv%5Fedu%2FDocuments%2FSecular%20Music%20Messages%2C%20Trends%2C%20and%20Places%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6533d25d%2De777%2D43da%2D8fcf%2D0c57299bd06b)
 
 - **Class:SPAN-110L** 
 - **Grade:A**
