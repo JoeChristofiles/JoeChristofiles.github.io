@@ -1,48 +1,55 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Statistics Calculator
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
+-   **Class:CSCI 325** 
+-   **Grade:A** 
+-   **Language(s):Java** 
+-   **Source Code Repository:** [Statistics Calculator](https://github.com/JoeChristofiles/Statistics-Calculator)  
     (Please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This program is a Java Swing-based statistics calculator for mean, median, and mode. The user enters comma-separated values, which are parsed into numbers and processed using basic loops and sorting. Each button runs its own calculation, keeping the logic simple and separated. Results are then displayed directly on the interface and update with each action.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+This program requires Java 25 or later to be installed on the system.
+
+The executable version of the project is provided as a `.jar` file in the GitHub release.
+
+Double-click the provided launcher:
+
+```bat
+run-game.bat
+```
+or to manually run, navigate to Statistics-Calculator\dist:
 
 ```bash
-cd ./project
-python setup.py
+java -jar StatisticsCalculator.jar
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+The UI uses a simple Java Swing layout built for direct use. The user enters comma-separated numbers into one input field, then selects a button to calculate mean, median, mode, or all three. Instructions and an example are shown on screen so the input format is clear. Results update directly on the interface through labels, keeping the design simple and easy to follow.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+![screenshot](images/csci325blank.png)  
+Fig 1. The launch screen showing input field and button options
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/mean.png)  
+Fig 2. Mean calculation output display
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/median.png)  
+Fig 3. Median calculation output display
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/mode.png)  
+Fig 4. Mode calculation output display
 
-## 3. Additional Considerations
+![screenshot](images/all.png)  
+Fig 5. Mean, median and mode calculation output display
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [Statistics Calculator](https://github.com/JoeChristofiles/Statistics-Calculator).
 
 [Back to Portfolio](./)

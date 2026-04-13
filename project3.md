@@ -4,24 +4,22 @@ AD-Library
 ===============
 
 -   **Class:CSCI-383** 
--   **Grade:P** 
+-   **Grade:Delivered / Accepted** 
 -   **Language(s):JavaScript, Vue, CSS, HTML** 
 -   **Source Code Repository:** [AD-Library](https://github.com/JoeChristofiles/CSCI-383)  
     (Please [email me](mailto:jachristofiles@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-This project is a frontend prototype of a searchable advertisement library built from a client-style specification. The goal was to replace folder-based storage with a system that allows users to search, filter, and explore ad content in a structured way without relying on inconsistent file naming or manual organization.
+This project is a frontend prototype of a searchable advertisement library built for a client. It replaces folder-based storage in Sharepoint with a structured system that allows users to search, filter, and explore ad content without relying on inconsistent file naming or manual organization.
 
-The application is built with Vue 3 and uses a modular component-based architecture. Core logic is separated into composables responsible for ad ingestion, transformation, normalization, and filtering. The system supports two main input sources: CSV metadata and local media uploads. CSV data is mapped into normalized ad objects, while uploaded media is converted into displayable records and merged into the active dataset.
+The application is built with Vue 3 using a component-based architecture, with core logic separated into composables for ad ingestion, normalization, and filtering. The system supports CSV metadata and local media uploads, both of which are mapped into a unified ad object model used throughout the application.
 
-A major focus of this project was handling inconsistent real-world data. The system normalizes labels such as language, gender, platform, and action so filtering remains consistent regardless of input format. It also derives additional attributes from ad content, including religion, holidays, keywords, and emotions, allowing for more useful filtering than what exists in the original data.
+A key challenge was handling inconsistent real-world data. Fields such as language, gender, platform, and action are normalized to ensure consistent filtering, while additional metadata (religion, holidays, keywords, emotions) is derived from content to extend filtering beyond the original dataset.
 
-Filtering is handled through a dedicated composable that computes filter values dynamically and applies multi-dimensional filtering in real time. Users can search across multiple fields and refine results using structured filters such as language, platform, region, content type, and derived metadata.
+Filtering is handled through a composable that computes filter values dynamically and applies multi-dimensional filtering in real time. Search operates across multiple mapped fields, allowing users to locate ads without exact matches.
 
-This implementation follows the original project requirements focused on search, filtering, and usability for non-technical users, while extending the system with additional normalization and derived data to improve consistency and scalability.
-
-My work focused on frontend architecture, CSV-to-object transformation, metadata normalization, and filtering logic. The goal was to build a maintainable system that can scale with additional data and support future integration with a SharePoint-based workflow.
+This project was developed as part of a team effort, with work contributing to system design, project structure, and coordination throughout development.
 
 ## How to run the program
 
@@ -36,18 +34,45 @@ npm run dev
 
 This application uses a web-based interface that allows the user to search, filter, and inspect advertisement records without relying on folder navigation or raw metadata. The user can upload CSV files, upload local media, search across multiple fields, apply filters, and open individual ads for detailed viewing. All interaction occurs through the interface, with results updating dynamically based on user input.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. Main library view showing ad cards, search, and filter controls.
+![screenshot](images/blank.png)  
+Fig 1. Main library view before csv upload
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Filter interface used to narrow ads by structured metadata fields.
+![screenshot](images/adtiles.png)  
+Fig 2. Main library view showing ad cards, search, and filter controls.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Detailed ad view showing expanded metadata and media content.
+![screenshot](images/filters.png)  
+Fig 3. Filter interface used to narrow ads by structured metadata fields.
+
+![screenshot](images/addetails.png)  
+Fig 4. Detailed ad view showing expanded metadata and media content.
+
+![screenshot](images/search.png)  
+Fig 5. Keyword search filter through multiple mapped fields.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+**Completed:**
+
+* CSV ingestion and normalization
+* Media upload integration
+* Unified ad data model
+* Dynamic filtering system
+* Search integration
+* Component-based architecture
+
+**Known Limitations:**
+
+* No backend or persistence layer
+* Data must be manually uploaded each session
+* SharePoint is not yet integrated
+
+**Future Direction:**
+
+* Replace CSV upload with SharePoint data sources
+* Replace local media with SharePoint-hosted assets
+* Use SharePoint lists or exported data instead of manual CSV upload
+* Use SharePoint document libraries for media
+
 
 For more details see [AD-Library](https://github.com/JoeChristofiles/CSCI-383).
 

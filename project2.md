@@ -52,6 +52,6 @@ Fig 3. Game outcome screen following win or loss condition
 ![screenshot](images/fig4csci325.jpg)  
 Fig 4. Team presentation and demo of Kindgom Calamity
 
-For more details see [GitHub Flavored Markdown](https://github.com/JoeChristofiles/csci325-fall25-DND-Clones).
+For more details see [DND Clones](https://github.com/JoeChristofiles/csci325-fall25-DND-Clones).
 
 [Back to Portfolio](./)
