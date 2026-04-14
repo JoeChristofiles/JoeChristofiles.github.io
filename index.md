@@ -57,9 +57,9 @@ Presentations
 - **Grade:Pass**
 
 
-### [Secular Music Messages, Trends, and Places](https://csuniv0-my.sharepoint.com/personal/jachristofiles_student_csuniv_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjachristofiles%5Fstudent%5Fcsuniv%5Fedu%2FDocuments%2FSecular%20Music%20Messages%2C%20Trends%2C%20and%20Places%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6533d25d%2De777%2D43da%2D8fcf%2D0c57299bd06b)
+### [Kingdom Calamity Presentation](https://csuniv0-my.sharepoint.com/personal/jachristofiles_student_csuniv_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjachristofiles%5Fstudent%5Fcsuniv%5Fedu%2FDocuments%2FPresentation%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed927dbf1%2D1b85%2D40e0%2Db362%2D51c01cb020a6)
 
-- **Class:SPAN-110L** 
+- **Class:CSCI-325** 
 - **Grade:A**
 
 ---
